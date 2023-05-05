@@ -36,6 +36,6 @@ server.httpsServer = https.createServer(
 );
 
 server.init = () => {
-  // server.httpsServer.listen(8001);
+  server.httpsServer.listen(8001);
   server.httpServer.listen(8000);
 };
