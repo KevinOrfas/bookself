@@ -7,4 +7,4 @@ app.init = () => {
   server.init();
 };
 
-app.init();
+// app.init();
