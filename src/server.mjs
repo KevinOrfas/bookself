@@ -42,7 +42,6 @@ server.unifiedServer = (req, res) => {
       //     data: 'Plain server!',
       //   })
       // );
-      // return;
     }
   }
 };
