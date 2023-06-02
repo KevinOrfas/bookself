@@ -20,9 +20,9 @@
     "prettier": "^2.8.8"
   },
   "lint-staged": {
-    "**/*.{js,jsx,json}": [
-      "eslint . --fix",
-      "prettier --write ."
+    "**/*.{tsx,ts,mjs,js,jsx,json}": [
+      "eslint --fix",
+      "prettier --write"
     ]
   },
   "husky": {
