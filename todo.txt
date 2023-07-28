@@ -1,0 +1,11 @@
+Mission AND
+
+Minimum Marketable Features:
+- Build a server
+
+User Stories to finish current MMF:
+- server monitoring / error handling
+
+Engineering Tasks:
+
+To Do on current task:
