@@ -155,6 +155,8 @@ server.unifiedServer = (req, res) => {
       payload: helpers.parseJsonToObject(buffer),
     };
 
+    console.log({data})
+
     // Route the request to the handler specified in the router
     try {
       chosenHandler(data, (statusCode, payload, contentType) => {
@@ -168,6 +170,7 @@ server.unifiedServer = (req, res) => {
         );
       });
     } catch (e) {
+      console.log(e)
       debug(e);
       server.processHandlerResponse(
         res,
